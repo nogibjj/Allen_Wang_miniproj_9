@@ -2,7 +2,7 @@ from main import (
     df_describe,
     statistics_for_column,
     create_save_visualization_for_all,
-    generate_html_report,
+    generate_md_report,
 )
 import os
 import pandas as pd
@@ -12,8 +12,7 @@ def test_generate_report():
     file_path = (
         "https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv"
     )
-    generate_html_report(file_path, "Titanic Profiling Report")
-    assert os.path.isfile("Titanic Profiling Report.html")
+    generate_md_report(file_path, "Titanic Profiling Report")
     assert os.path.isfile("Titanic Profiling Report.md")
 
 
