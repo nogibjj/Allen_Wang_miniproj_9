@@ -38,7 +38,7 @@ def test_visualization():
     describe = df_describe(file_path)
     for column in describe.columns:
         column_name = column.replace("/", "_")
-        assert os.path.isfile(column_name + "_distribution.png")
+        assert os.path.isfile("output/"+ column_name + "_distribution.png")
 
 
 if __name__ == "__main__":

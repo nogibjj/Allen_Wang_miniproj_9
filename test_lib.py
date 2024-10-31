@@ -51,8 +51,8 @@ def test_visualization():
     df = read_dataset(file_path)
     for column in df.columns:
         column_name = column.replace("/", "_")
-        create_save_visualization(df, column, column_name + "_distribution.png")
-        assert os.path.isfile(column_name + "_distribution.png")
+        create_save_visualization(df, column, "output/"+ column_name + "_distribution.png")
+        assert os.path.isfile("output/"+ column_name + "_distribution.png")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-from ydata_profiling import ProfileReport
+#from ydata_profiling import ProfileReport
 from mylib.lib import (
     create_save_visualization,
     read_dataset,
@@ -21,13 +21,13 @@ def create_save_visualization_for_all(file_path):
     df = read_dataset(file_path)
     for column in df.columns:
         column_name = column.replace("/", "_")
-        create_save_visualization(df, column, column_name + "_distribution.png")
+        create_save_visualization(df, column, "output/"+ column_name + "_distribution.png")
 
 
 def generate_html_report(file_path, title):
     df = read_dataset(file_path)
-    profile = ProfileReport(df, title=title, explorative=True)
-    profile.to_file(title + ".html")
+    #profile = ProfileReport(df, title=title, explorative=True)
+    #profile.to_file(title + ".html")
     summary_stats, mean_values, median_values, std_dev = generate_summary_statistics(df)
     with open(title + ".md", "w", encoding="utf-8") as file:
         file.write("Summary:\n")
@@ -38,8 +38,8 @@ def generate_html_report(file_path, title):
         file.write(median_values.to_markdown() + "\n\n")
         file.write("Standard Deviation:\n")
         file.write(std_dev.to_markdown() + "\n\n")
-        file.write("![image1](Age_distribution.png)\n")
+        file.write("![image1](output/Age_distribution.png)\n")
         file.write("\n\n")
-        file.write("![image2](Fare_distribution.png)\n")
+        file.write("![image2](output/Fare_distribution.png)\n")
         file.write("\n\n")
-        file.write("![image3](Pclass_distribution.png)\n")
+        file.write("![image3](output/Pclass_distribution.png)\n")
