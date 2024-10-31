@@ -24,7 +24,7 @@ def create_save_visualization_for_all(file_path):
         create_save_visualization(df, column, "output/"+ column_name + "_distribution.png")
 
 
-def generate_html_report(file_path, title):
+def generate_md_report(file_path, title):
     df = read_dataset(file_path)
     #profile = ProfileReport(df, title=title, explorative=True)
     #profile.to_file(title + ".html")
