@@ -40,10 +40,10 @@ Standard Deviation:
 | Parents/Children Aboard |  0.807466 |
 | Fare                    | 49.782    |
 
-![image1](Age_distribution.png)
+![image1](output/Age_distribution.png)
 
 
-![image2](Fare_distribution.png)
+![image2](output/Fare_distribution.png)
 
 
-![image3](Pclass_distribution.png)
+![image3](output/Pclass_distribution.png)
