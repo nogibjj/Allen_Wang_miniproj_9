@@ -1,20 +1,20 @@
-# Allen_Wang_Individualproj_1
+# Allen_Wang_miniproj_9
 
-[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10936070182)
-[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10936070200)
-[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10936070183)
-[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10936070189)
+[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/10936070182)
+[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/10936070200)
+[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/10936070183)
+[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/10936070189)
 
 ## Overview
 
-This project demonstrates Continuous Integration (CI) using GitLab Actions for a Python Data Science project. It features the use of Pandas for data analysis, nbval for notebook testing, and automated formatting and linting tools integrated into a GitLab CI pipeline. The project performs data analysis, testing, and code quality checks as part of the CI process.
-
+This project demonstrates Continuous Integration (CI) and Continuous Deployment (CD) using GitHub Actions for a Python Data Science project, hosted on Google Colab for easy cloud access. The project uses Pandas and Polars for data analysis, nbval for notebook testing, and automated formatting and linting integrated within the CI/CD pipeline. It includes data manipulation tasks on a sample dataset, where the CI/CD pipeline automates testing, code quality checks, and deployment.
 
 ## Features
-- **Descriptive Statistics**: A Python script that:
+- **Descriptive Statistics**: Python script and Jupyter notebook that:
   - Reads a dataset (CSV or Excel).
   - Generates summary statistics including mean, median, and standard deviation for numeric columns.
   - Creates a histogram for data visualization.
+  - Perform data transformation and manipulation (notebook only)
 - **Automated Testing**:
   - Tested using `pytest` with the `nbval` plugin for notebook validation.
   - Unit tests for scripts and libraries.
@@ -44,16 +44,16 @@ This project demonstrates Continuous Integration (CI) using GitLab Actions for a
   - Runs all Makefile commands (install, test, lint, format).
   - Displays badges for each task in the README.
 
-## Youtube Link 
-https://www.youtube.com/watch?v=5DYYrVQYMWU
+## Colab LInk 
+https://colab.research.google.com/drive/1_G-xXOaFPY2p2jGRrd61uKnsmvjO8Wc0#scrollTo=e2C7qz_JBns1
 
 ## Setup
 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/nogibjj/Allen_Wang_miniproj_2.git
-    cd Allen_Wang_miniproj_2
+    git clone https://github.com/nogibjj/Allen_Wang_miniproj_9.git
+    cd Allen_Wang_miniproj_9
     ```
 
 2. **Install dependencies:**
@@ -67,19 +67,18 @@ https://www.youtube.com/watch?v=5DYYrVQYMWU
     ```bash
     make format
     ```
-    ![Alt text](format.png)
+
 4. **Lint code:**
 
     ```bash
     make lint
     ```
-   ![Alt text](lint.png)
+
 5. **Test code:**
 
     ```bash
     make test
     ```
-   ![Alt text](test.png)
 
 ## Data Analysis Script
 
