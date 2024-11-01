@@ -1,9 +1,9 @@
 # Allen_Wang_miniproj_9
 
-[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/10936070182)
-[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/10936070200)
-[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/10936070183)
-[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/10936070189)
+[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/11633910551)
+[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/11633910608)
+[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/11633910562)
+[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_9/actions/runs/10936070182)
 
 ## Overview
 
